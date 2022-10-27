@@ -1,3 +1,23 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.g-color{
+    color: rgb(245 158 11);
+}
+.p-color{
+    color: rgb(54 83 20);
+}
+.t-color{
+    color: rgb(132 204 22);
+}
+.img-prod{
+    transition: transform 0.25s, filter 0.25s;
+}
+.img-prod:hover{
+    transform: scale(1.03);
+    filter: brightness(1.1);
+}
+.br-50{
+    border-radius: 50%;
+}
